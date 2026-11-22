@@ -1,0 +1,20 @@
+export type Project = { slug: string; title: string; category: string; summary: string; contribution: string; context: string; accent: string; preview: string; areas: string[] };
+export const profile = {
+ name: 'Biruk Wondu', role: 'Full Stack Software Engineer', location: 'Addis Ababa, Ethiopia', email: 'bwondu1@gmail.com',
+ links: { GitHub: 'https://github.com/fati-ux', LinkedIn: 'https://www.linkedin.com/in/biruk-wondu-2a15381b0/', Upwork: 'https://www.upwork.com/freelancers/~0113bd3b53207aa945?viewMode=1' },
+ intro: 'I’m Biruk, a full stack software engineer focused on enterprise applications, ERP systems, and web platforms. I turn business requirements into practical software that teams can use every day.'
+};
+// TODO: Confirm the senior role end date before adding a date or “Present”.
+export const experience: { role: string; company: string; start: string; end: string | null; description: string }[] = [
+ { role: 'Senior Full Stack Software Engineer', company: 'Xoka IT Solution PLC', start: 'May 2022', end: null, description: 'Enterprise application development, translating business requirements into software and collaborating with stakeholders and cross-functional teams.' },
+ { role: 'Full Stack Developer', company: 'Xoka IT Solution PLC', start: 'May 2021', end: 'May 2022', description: 'Developed business applications and contributed to enterprise software for operational workflows.' }
+];
+export const projects: Project[] = [
+ {slug:'federal-housing-erp',title:'Federal Housing Corporation ERP',category:'Enterprise resource planning',summary:'Bringing business operations and property management into an enterprise platform.',context:'An enterprise resource planning platform for Federal Housing Corporation, supporting business operations and property management.',contribution:'Contributed to ERP development, including a One-Stop Service Center and property management functionality.',accent:'housing',preview:'Property overview',areas:['ERP development','One-Stop Service Center','Property management']},
+ {slug:'oromia-mineral-management',title:'Oromia Mineral Management System',category:'Public-sector software',summary:'Software supporting the processes behind mineral management.',context:'A software platform supporting mineral management processes in Oromia.',contribution:'Led development and collaborated with cross-functional teams to deliver the system.',accent:'mineral',preview:'Mineral management',areas:['Development leadership','Cross-functional collaboration']},
+ {slug:'land-development-management',title:'Land Development and Management System',category:'Enterprise applications',summary:'Practical software for land development and management workflows.',context:'Enterprise software supporting land development and management workflows.',contribution:'Contributed to the development of the Land Development and Management System.',accent:'land',preview:'Land management',areas:['Enterprise development','Business workflows']}
+];
+// TODO: Add project-specific technologies, screenshots and public demo URLs only after verification.
+export const skills = [ {title:'Frontend',items:['JavaScript','TypeScript','Angular','HTML','CSS']}, {title:'Backend',items:['Java','PHP','Laravel','.NET','ASP.NET']}, {title:'Data',items:['SQL']}, {title:'Practices',items:['Git','Agile','Scrum','Requirements analysis','Collaboration']} ];
+export const education = [ {degree:'Master’s in Computer Science, Software Engineering',school:'Addis Ababa University',date:'August 2024'}, {degree:'BSc in Information Systems',school:'Hope Enterprise University College',date:'August 2021',note:'Dean’s List recognition during undergraduate study.'} ];
+export const services = [ {title:'Custom web applications',body:'Practical web software shaped around your business requirements and the people who use it.'}, {title:'ERP & business workflows',body:'Enterprise applications that help teams manage complex operations in one place.'}, {title:'Maintain, integrate, improve',body:'Thoughtful maintenance, integrations, and improvements to existing software.'} ];

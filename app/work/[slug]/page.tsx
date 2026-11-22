@@ -1,0 +1,8 @@
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { projects, profile } from '@/lib/content';
+import { ProjectPreview } from '@/components/project-preview';
+export const dynamicParams = false;
+export function generateStaticParams(){return projects.map(p=>({slug:p.slug}))}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const p=projects.find(p=>p.slug===slug);return {title:p?.title,description:p?.summary}}
+export default async function Project({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const p=projects.find(p=>p.slug===slug);if(!p)notFound();return <main id="main" className="detail"><Link className="case-link" href="/#work">Back to selected work</Link><span className="eyebrow">{p.category}</span><h1>{p.title}</h1><p className="lead">{p.summary}</p><ProjectPreview project={p}/><div className="detail-copy"><div><span className="eyebrow">The problem</span><h2>Business context</h2><p>{p.context}</p></div><div><span className="eyebrow">My involvement</span><h2>Contribution</h2><p>{p.contribution}</p><h3>Documented scope</h3><ul>{p.areas.map(x=><li key={x}>{x}</li>)}</ul></div></div><p className="visual-note">The interface above is an illustrative concept with fictional sample data. It is not a screenshot of the delivered system.</p><div className="detail-cta"><h2>Working on a similar challenge?</h2><a className="button" href={`mailto:${profile.email}`}>Let’s talk</a></div><div className="next-projects">{projects.filter(x=>x.slug!==slug).map(x=><Link href={`/work/${x.slug}/`} key={x.slug}>{x.title}</Link>)}</div></main>}
