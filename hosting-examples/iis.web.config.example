@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IIS only. Optional: review with your provider, then copy as web.config.
+     Static Content and Default Document IIS features must be available.
+     These configuration sections must be delegated/unlocked by your host. -->
+<configuration>
+  <system.webServer>
+    <defaultDocument enabled="true">
+      <files><clear /><add value="index.html" /></files>
+    </defaultDocument>
+    <directoryBrowse enabled="false" />
+    <httpErrors errorMode="Custom" existingResponse="Replace">
+      <remove statusCode="404" subStatusCode="-1" />
+      <error statusCode="404" path="/404.html" responseMode="ExecuteURL" />
+    </httpErrors>
+    <staticContent>
+      <remove fileExtension=".webp" /><mimeMap fileExtension=".webp" mimeType="image/webp" />
+      <remove fileExtension=".svg" /><mimeMap fileExtension=".svg" mimeType="image/svg+xml" />
+      <remove fileExtension=".pdf" /><mimeMap fileExtension=".pdf" mimeType="application/pdf" />
+    </staticContent>
+  </system.webServer>
+</configuration>

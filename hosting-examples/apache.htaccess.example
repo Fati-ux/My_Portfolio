@@ -1,0 +1,5 @@
+# Apache only. Optional: copy this file as .htaccess into the document root
+# ONLY if your host permits DirectoryIndex / ErrorDocument overrides.
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+# No catch-all rewrites: real project directories contain index.html.

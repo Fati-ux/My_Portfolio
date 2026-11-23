@@ -1,0 +1,20 @@
+{
+  "origin": "https://biruk.ethioerp.com",
+  "pages": 7,
+  "projects": [
+    "/work/my-clean-cook/",
+    "/work/fhc-hr-payroll/",
+    "/work/federal-housing-erp/",
+    "/work/oromia-mineral-management/",
+    "/work/land-development-management/",
+    "/work/biruk-wondu-portfolio/"
+  ],
+  "exportedFiles": 67,
+  "checkedLocalUrls": 74,
+  "canonicalAndSocialMetadata": "passed",
+  "sitemapAndRobots": "passed",
+  "missingRouteStatus": 404,
+  "imagesAndPdf": "passed",
+  "disallowedFilesAndLocalContentUrls": "none",
+  "checkedAt": "2026-11-23T07:30:11.493Z"
+}

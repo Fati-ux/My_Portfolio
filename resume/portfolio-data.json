@@ -1,0 +1,98 @@
+{
+  "profile": {
+    "name": "Biruk Wonduwosen",
+    "role": "Full Stack Software Engineer",
+    "location": "Addis Ababa, Ethiopia",
+    "email": "bwondu1@gmail.com",
+    "phone": "+251 93 848 7879",
+    "whatsapp": "https://wa.me/251938487879",
+    "telegram": {
+      "username": "@birukwn",
+      "url": "https://t.me/birukwn"
+    },
+    "resume": {
+      "url": "/documents/Biruk_Wonduwosen_Resume.pdf",
+      "filename": "Biruk_Wonduwosen_Resume.pdf"
+    },
+    "links": {
+      "GitHub": "https://github.com/fati-ux",
+      "LinkedIn": "https://www.linkedin.com/in/biruk-wondu-2a15381b0/",
+      "Upwork": "https://www.upwork.com/freelancers/~0113bd3b53207aa945?viewMode=1"
+    },
+    "currentRoleSummary": "I work as Chief Software Developer at Federal Housing Corporation, contributing to enterprise software, ERP development, the One-Stop Service Center, and property management systems.",
+    "intro": "I’m Biruk Wonduwosen, a full stack software engineer focused on enterprise applications, ERP systems, and web platforms. I turn business requirements into practical software that teams can use every day."
+  },
+  "skills": [
+    {
+      "title": "Frontend",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Angular",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Backend",
+      "items": [
+        "Python",
+        "Frappe Framework",
+        "Java",
+        "C#",
+        "Entity Framework Core",
+        "PHP",
+        "Laravel",
+        ".NET",
+        "ASP.NET"
+      ]
+    },
+    {
+      "title": "Data",
+      "items": [
+        "SQL",
+        "Microsoft SQL Server",
+        "MariaDB"
+      ]
+    },
+    {
+      "title": "ERP & HR",
+      "items": [
+        "ERPNext",
+        "Frappe HR / HRMS"
+      ]
+    },
+    {
+      "title": "Delivery",
+      "items": [
+        "Linux",
+        "Bench CLI"
+      ]
+    },
+    {
+      "title": "Practices",
+      "items": [
+        "Git",
+        "Agile",
+        "Scrum",
+        "Requirements analysis",
+        "Collaboration"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master’s in Computer Science, Software Engineering",
+      "school": "Addis Ababa University",
+      "date": "August 2024"
+    },
+    {
+      "degree": "BSc in Information Systems",
+      "school": "Hope Enterprise University College",
+      "date": "August 2021",
+      "note": "Dean’s List recognition during undergraduate study."
+    }
+  ]
+}

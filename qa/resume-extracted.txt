@@ -1,0 +1,60 @@
+1
+Biruk Wonduwosen
+Full Stack Software Engineer
+Addis Ababa, Ethiopia | Email: bwondu1@gmail.com
+Phone / WhatsApp: +251 93 848 7879 | Telegram: @birukwn
+Portfolio: https://biruk.ethioerp.com | GitHub: https://github.com/fati-ux
+LinkedIn: https://www.linkedin.com/in/biruk-wondu-2a15381b0/
+PROFESSIONAL SUMMARY
+Full stack software engineer experienced in enterprise applications, ERP systems, HR and payroll
+implementation, and service booking platforms.
+EXPERIENCE
+Chief Software Developer
+Federal Housing Corporation | May 2022-Present
+ - Contribute to enterprise ERP development, including the One-Stop Service Center and property
+ management functionality.
+- Configure and tailor Frappe HR and ERPNext employee profiles, organizational structures, attendance
+ synchronization, leave requests, and approval routing.
+- Configure salary components, salary structures, employee payroll profiles, payroll entries, and salary slips;
+ troubleshoot processing errors and permission-controlled corrections.
+- Tailor roles, permissions, approval workflows, scripts, reports, and notifications. Support migration, HR
+ scenario testing, administration documentation, and operational handover.
+Full Stack Developer
+Xoka IT Solution PLC | May 2021-May 2022
+ - Developed business applications and contributed to enterprise software for operational workflows.
+ 
+TECHNICAL SKILLS
+Frontend: JavaScript, TypeScript, React, Next.js, Angular, HTML, CSS
+Backend: Python, Frappe Framework, Java, C#, Entity Framework Core, PHP, Laravel, .NET, ASP.NET
+Data: SQL, Microsoft SQL Server, MariaDB
+ERP & HR: ERPNext, Frappe HR / HRMS
+Delivery: Linux, Bench CLI
+Practices: Git, Agile, Scrum, Requirements analysis, Collaboration
+
+2
+SELECTED PROJECTS
+Federal Housing Corporation ERP
+Contributed to an enterprise resource planning platform, including a One-Stop Service Center and property
+management functionality.
+FHC HR and Payroll Implementation
+Configured and tailored employee management, attendance, leave, payroll, permissions, and approval
+workflows using Frappe HR and ERPNext.
+Technologies: Frappe Framework, ERPNext, Frappe HR / HRMS, Python, JavaScript, MariaDB, Linux, Bench
+CLI, Git.
+My Clean & Cook Booking Marketplace
+Service booking marketplace with customer bookings, worker onboarding and availability, rules-based
+matching, and administrator assignments. Includes a PayPal sandbox checkout integration; live processing is
+not confirmed.
+Technologies: React 18, React Router v6, Axios, C#, ASP.NET Core 5 Web API, Entity Framework Core 5,
+Microsoft SQL Server, JWT authentication for administrators, PayPal REST API (sandbox), Windows Server,
+IIS, Plesk.
+Oromia Mineral Management System
+Led development and collaborated with cross-functional teams on software supporting mineral management
+processes.
+Land Development and Management System
+Contributed to enterprise software supporting land development and management workflows.
+EDUCATION
+Master's in Computer Science, Software Engineering
+Addis Ababa University | August 2024
+BSc in Information Systems
+Hope Enterprise University College | August 2021
